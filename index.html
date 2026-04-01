@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Incríveis para Visitar</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9fb;
+        }
+
+        header {
+            background-color: #005f6b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Estilos do container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .destination-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .destination-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .destination-card-content {
+            padding: 20px;
+        }
+
+        .destination-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #005f6b;
+        }
+
+        .destination-card p {
+            color: #555;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .destination-card a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #005f6b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .destination-card a:hover {
+            background-color: #00444a;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            background-color: #005f6b;
+            color: white;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lugares Incríveis pelo Mundo para Visitar</h1>
+</header>
+
+<div class="container">
+    <div class="destination-card">
+        <img src="https://www.adventureclub.com.br/wp-content/webp-express/webp-images/uploads/2017/07/machu-picchu-curiosidades-e-historia-peru-galeria.jpg.webp" alt="Machu Picchu">
+        <div class="destination-card-content">
+            <h3>Machu Picchu — Peru</h3>
+            <p>Machu Picchu é um dos destinos mais incríveis para se visitar. A energia inexplicável do local e a bela paisagem tornam este lugar inesquecível.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://portaledicase.com/wp-content/uploads/2024/04/petrajordania-1024x683.jpg" alt="Petra">
+        <div class="destination-card-content">
+            <h3>Petra — Jordânia</h3>
+            <p>Fácil de sentir-se um explorador em Petra. Atravessar a primeira hora da manhã até o Tesouro é uma experiência fascinante que você nunca esquecerá.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.webp?w=1023&h=685" alt="A Grande Muralha">
+        <div class="destination-card-content">
+            <h3>A Grande Muralha — China</h3>
+            <p>A Grande Muralha da China é um símbolo famoso que todos deveriam ver, mas a experiência de explorar suas regiões remotas é inesquecível.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://www.visitcentroamerica.com/wp-content/uploads/2025/04/Tikal-National-Park-Guatemala-Centroamerica-03-1024x512.webp" alt="Tikal">
+        <div class="destination-card-content">
+            <h3>Tikal — Guatemala</h3>
+            <p>Localizado no coração da selva, Tikal é um dos locais mais importantes da antiga civilização Maia, com ruínas impressionantes e uma bela vista.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/yellowstone.jpg" alt="Yellowstone">
+        <div class="destination-card-content">
+            <h3>Yellowstone — Estados Unidos</h3>
+            <p>Uma visita ao Parque Nacional de Yellowstone é uma oportunidade única para explorar fenômenos geotérmicos e paisagens impressionantes.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/sigiriya.jpg" alt="Sigiriya">
+        <div class="destination-card-content">
+            <h3>Sigiriya — Sri Lanka</h3>
+            <p>Considerado o maior sítio arqueológico do Sri Lanka, Sigiriya oferece vistas deslumbrantes e é um dos lugares mais famosos do país.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/eiffel-tower.jpg" alt="Torre Eiffel">
+        <div class="destination-card-content">
+            <h3>Torre Eiffel — França</h3>
+            <p>Um ícone da França, a Torre Eiffel oferece uma das vistas mais icônicas de Paris. Suba até o topo para uma experiência inesquecível.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/colosseum.jpg" alt="Coliseu">
+        <div class="destination-card-content">
+            <h3>Coliseu — Itália</h3>
+            <p>O Coliseu é um dos maiores anfiteatros romanos e uma das mais impressionantes atrações históricas de Roma.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/banff.jpg" alt="Banff">
+        <div class="destination-card-content">
+            <h3>Banff — Canadá</h3>
+            <p>Com suas paisagens de montanhas cobertas de neve e lagos cristalinos, Banff é um paraíso para os amantes da natureza.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+    <div class="destination-card">
+        <img src="https://example.com/santorini.jpg" alt="Santorini">
+        <div class="destination-card-content">
+            <h3>Santorini — Grécia</h3>
+            <p>Famosa por suas casas brancas e igrejas de cúpulas azuis, Santorini oferece uma das vistas mais lindas do Mediterrâneo.</p>
+            <a href="#">Saiba mais...</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Quer mais inspirações de lugares incríveis? Siga nossas páginas:</p>
+    <a href="https://instagram.com">Instagram</a>
+    <a href="https://twitter.com">Twitter</a>
+</footer>
+
+</body>
+</html>
